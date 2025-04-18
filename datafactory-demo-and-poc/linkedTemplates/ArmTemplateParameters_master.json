@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory-demo-and-poc"
+		},
+		"AzureFileStorage1_connectionString": {
+			"value": ""
+		},
+		"AvalynPoCRESTlinkedService_properties_typeProperties_url": {
+			"value": "https://api.fda.gov/drug/event.json?search=receivedate:[20040101+TO+20081231]&limit=1"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
