@@ -1,0 +1,12 @@
+{
+	"name": "AvalynPoCRESTlinkedService",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://api.fda.gov/drug/event.json?search=receivedate:[20040101+TO+20081231]&limit=1",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
