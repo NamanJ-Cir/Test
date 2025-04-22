@@ -1,0 +1,9 @@
+{
+	"name": "datafactory-demo-and-poc",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2a8a8f59-7672-4eb1-9ec8-c6dcba06abef",
+		"tenantId": "90904187-a87c-46a0-8a60-18c3be71915d"
+	}
+}
